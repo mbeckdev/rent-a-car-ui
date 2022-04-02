@@ -4,20 +4,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="background__art-box"></div>
+      <form>
+        <h1>Search for a rental car</h1>
+        <label htmlFor="location">Pick up location</label>
+        <input
+          type="text"
+          id="location"
+          placeholder="City, airport, region, district..."
+        />
+        <input type="checkbox" id="deliver-elsewhere" />
+        <label htmlFor="deliver-elsewhere">
+          Deliver the car somewhere else
+        </label>
+      </form>
     </div>
   );
 }
