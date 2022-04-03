@@ -1,0 +1,56 @@
+:root {
+  --color-tertiary: #fcc863;
+  --color-primary: #f5f3e6;
+  --color-secondary: #fcc863;
+  --color-third: #f39a63;
+  --color-fourth: #fe6f4f;
+  --color-fifth: #0d1c52;
+}
+.App {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__background-art-box {
+  width: 484px;
+  height: 632px;
+  position: absolute;
+  top: -98px;
+  left: -109px;
+
+  border-radius: 90px;
+  background-color: var(--color-tertiary);
+  z-index: -1;
+}
+
+.form {
+  width: 756px;
+  height: 897px;
+  background-color: rgba(2, 2, 2, 0.5);
+
+  position: relative;
+
+  margin-top: 152px;
+}
+
+.age-container {
+  display: flex;
+}
+.age__input {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: rgb(192, 82, 82);
+}
+.age-info {
+  border: 1px solid black;
+  border-radius: 5000px;
+  width: 21.75px;
+  height: 21.75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
